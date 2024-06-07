@@ -11,7 +11,7 @@ Fonts are separated by a | */
   --accent2-color: white;
   --accent3-color: #4361ee;
   --accent4-color: #4cc9f0;
-  /* --accent5-color: #9cf945;
+  --accent5-color: #9cf945;
   --accent6-color: #80c423;
   --accent7-color: #1f6924; */
 
@@ -25,10 +25,10 @@ Fonts are separated by a | */
   --paragraph-color-on-white: #f72585; /* paragraph text on a white background */ 
   --paragraph-color-on-color: white; /* paragraph text on a colored background */ 
   --paragraph-background-color: #3a0ca3  ;
-  --nav-link-color: #4cc9f0;
+  --nav-link-color: white;
   --nav-background-color: #7209b7;
   --nav-hover-link-color: white;
-  --nav-hover-background-color: none;
+  --nav-hover-background-color: #4361ee;
 }
 
 
