@@ -1,29 +1,34 @@
 /* if you are using any Google fonts change the font names below to your fonts. 
 Any spaces in your font name should be replaced with a +. 
 Fonts are separated by a | */
-@import url('https://fonts.googleapis.com/css?family=IM+Fell+French+Canon+SC|Lato');
+@import url('https://fonts.googleapis.com/css2?family=Holtwood+One+SC&family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Patrick+Hand+SC&family=Play:wght@400;700&family=Share+Tech+Mono&display=swap');
 
 :root {
   /* change the values below to your colors from your palette */
-  --primary-color: #396E94   ;
-  --secondary-color: #E7C24F ;
-  --accent1-color: #A42212;
+  --primary-color: #f72585   ;
+  --secondary-color: #7209b7 ;
+  --accent1-color: #3a0ca3;
   --accent2-color: white;
+  --accent3-color: #4361ee;
+  --accent4-color: #4cc9f0;
+  /* --accent5-color: #9cf945;
+  --accent6-color: #80c423;
+  --accent7-color: #1f6924; */
 
   /* change the values below to your chosen font(s) */
-  --heading-font: "IM Fell French Canon SC";
-  --paragraph-font: Lato, Helvetica, sans-serif;
+  --heading-font: "IBM Plex Mono", sans-serif;
+  --paragraph-font: Play, Share Tech Mono, Patrick Hand SC, sans-serif;
 
   /* these colors below should be chosen from among your palette colors above */
-  --headline-color-on-white: #396E94;  /* headlines on a white background */ 
+  --headline-color-on-white: #f72585;  /* headlines on a white background */ 
   --headline-color-on-color: white; /* headlines on a colored background */ 
-  --paragraph-color-on-white: #396E94; /* paragraph text on a white background */ 
+  --paragraph-color-on-white: #f72585; /* paragraph text on a white background */ 
   --paragraph-color-on-color: white; /* paragraph text on a colored background */ 
-  --paragraph-background-color: #396E94  ;
-  --nav-link-color: #396E94;
-  --nav-background-color: #D4AC0D;
+  --paragraph-background-color: #3a0ca3  ;
+  --nav-link-color: #4cc9f0;
+  --nav-background-color: #7209b7;
   --nav-hover-link-color: white;
-  --nav-hover-background-color: #396E94;
+  --nav-hover-background-color: none;
 }
 
 
@@ -41,7 +46,9 @@ img {
   margin: 0 auto;
 }
 h1, h2, h3, h4, h5, h6 {
-  font-family: var(--heading-font);
+  font-family: "IBM Plex Mono", sans-serif;
+  font-weight: 700;
+  font-style: normal;
   color: var(--headline-color-on-white);
 }
 h2 {
@@ -63,7 +70,7 @@ header > h1, header > h2 {
 }
 
 p {
-  font-family: var(--paragraph-font);
+  font-family: 'Patrick Hand SC', sans-serif;
   color: var(--paragraph-color-on-white);
   padding: 1em;
 }
