@@ -49,7 +49,7 @@ nav a {
 }
 .homediv {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: auto;
     width: 100%;
     height: 100%;
@@ -58,21 +58,21 @@ nav a {
 
 .homediv .first1{
     width: 100%;
-    grid-column: 1 / 2;
-    grid-row: 1 / 2 ;
+    grid-column: 1 / 4;
+    grid-row: 1;
 }
 .homediv .first2{
     width: 100%;
-    grid-column: 1 / 2;
-    grid-row: 2 / 3;
+    grid-column: 1 / 4;
+    grid-row: 3 ;
 }
 .homediv p {
     color: white;
     background-color: #3a0ca3;
     font-family: "Patrick Hand SC",  "Play", "Share Tech Nano", sans-serif;
     font-size: 1.5em;
-    grid-column: 2 / 3;
-    grid-row: 1 / 3;
+    grid-column: 1 / 4;
+    grid-row: 2 / 3;
     padding: 30px;
     margin: 0;
     text-align: left;
@@ -85,7 +85,11 @@ nav a:hover {
 
 footer{
     background-color: #7209b7;
+    display: grid;
+    justify-content: center;
+    align-items: center;
 }
+
 footer p {
     color: white;
     font-family: "IBM Plex Mono", sans-serif;
@@ -100,13 +104,19 @@ footer h2 {
     padding: 10px;
     margin: 0;
 }
-
+footer a {
+    text-align: center;
+    color: white;
+    padding: 10px;
+}
+footer div .siteplan {
+    text-align: center;
+    margin: 0;
+    padding: 10px;
+}
 .social {
     display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
 }
 
-.social .media {
-    display: grid;
-    justify-content: space-around;
-    padding: 10px;
 }
