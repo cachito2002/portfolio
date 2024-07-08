@@ -2,61 +2,111 @@
 
 :root {
 
-body{
+body {
     background-color: #f72585;
+    max-width: 100%;
+    margin: 0;
+    padding: 0;
 }
+
 .homeheader {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    background-color:  #7209b7;
+    padding: 15px;
 }
-
-.welcome {
+.homeheader .welcome {
     color: white;
     font-family: "IBM Plex Mono", sans-serif;
     grid-column: 1 / 3;
-    grid-row: 1/2;
-    font-size: 3em;
-    text-align: center;
+    grid-row: 1 / 2;
+    padding: auto;
 }
-nav a {
-    grid-column: 1 / 3;
-    grid-row: 2/3;
-    background-color: #7209b7;
-    display: grid;
-    
-}
-
-
-
-nav a {
-    float: bottom;
+.homeheader .welcome1 {
     color: white;
-    text-align: center;
-    padding: 14px 16px;
+    font-family: "IBM Plex Mono", sans-serif;
+    grid-column: 1 / 3;
+    grid-row:  3;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+}
+nav, nav a {
+    border: none;
+}
+nav a {
+    font-family: "IBM Plex Mono", sans-serif;
+    padding: 5px 10px;
     text-decoration: none;
     font-size: 1.5em;
+    grid-column: 2 / 3;
+    grid-row: 3;
+    color: white;
+    max-width: 100%;
+    grid-gap: 10px;
+}
+.homediv {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+}
+
+.homediv .first1{
+    width: 100%;
+    grid-column: 1 / 2;
+    grid-row: 1 / 2 ;
+}
+.homediv .first2{
+    width: 100%;
+    grid-column: 1 / 2;
+    grid-row: 2 / 3;
+}
+.homediv p {
+    color: white;
+    background-color: #3a0ca3;
+    font-family: "Patrick Hand SC",  "Play", "Share Tech Nano", sans-serif;
+    font-size: 1.5em;
+    grid-column: 2 / 3;
+    grid-row: 1 / 3;
+    padding: 30px;
+    margin: 0;
+    text-align: left;
 }
 nav a:hover {
     background-color: #4361ee;
     border-radius: 0px;
-}
-.homediv {
-    
-
-
+    border-radius: 20px;
 }
 
+footer{
+    background-color: #7209b7;
+}
+footer p {
+    color: white;
+    font-family: "IBM Plex Mono", sans-serif;
+    text-align: center;
+    padding: 10px;
+    margin: 0;
+}
+footer h2 {
+    color: white;
+    font-family: "IBM Plex Mono", sans-serif;
+    text-align: center;
+    padding: 10px;
+    margin: 0;
+}
 
+.social {
+    display: grid;
+}
 
-
-
-
-
-
-
-
-
-footer
-
-
-
+.social .media {
+    display: grid;
+    justify-content: space-around;
+    padding: 10px;
+}
