@@ -12,31 +12,32 @@ body {
     box-sizing: border-box;
   }
   
-  body {
-    background-color: #f1f1f1;
-    padding: 20px;
-    font-family: Arial;
-  }
-  
   /* Center website */
   .main {
     max-width: 1000px;
     margin: auto;
   }
   
-  h1 {
-    font-size: 50px;
-    word-break: break-all;
+  h3 {
+    font-size: 25px;
+    font-family: "Share Tech Mono", sans-serif;
+    text-align: center;
+  }
+  p {
+    font-size: 20px;
+    font-family: "Anton SC", "Share Tech Mono", sans-serif;
+    text-align: center;
+    width: 100%;
   }
   
   .row {
-    margin: 8px -16px;
+    margin: 5px 10px;
   }
   
   /* Add padding BETWEEN each column */
   .row,
   .row > .column {
-    padding: 8px;
+    padding: 20px;
   }
   
   /* Create four equal columns that floats next to each other */
