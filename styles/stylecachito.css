@@ -149,9 +149,10 @@ nav a:hover {
 .you {
     color: black;
     font-family: "Anton SC", "Play", "Share Tech Nano", sans-serif;
-    font-size: 4em;
+    font-size: 6em;
     font-weight: 400;
-    z-index: 1;
+    padding: 20px;
+    margin: 0 auto;
     text-align: center;
     background-color: white;
 }
@@ -161,9 +162,12 @@ nav a:hover {
     background-color: white;
     font-size: 2em;
     font-weight: 400;
-    z-index: 1;
-    padding: none;
+    margin: 0 auto;
+    padding: 20px;
     text-align: center;
+}
+.foryou {
+    background-color: white;
 }
 .themainbox {
     display: grid;
@@ -174,7 +178,6 @@ nav a:hover {
 .themainbox p{
   font-size: 3em;
   border-radius: 20px;
-  padding: none;
   color: white;
 }
 .themainbox p:hover {
