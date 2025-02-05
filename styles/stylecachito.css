@@ -59,7 +59,7 @@ body {
     padding: 10px;
     align-items: center;
   }
-  
+
   /* Responsive layout - makes a two column-layout instead of four columns */
   @media screen and (max-width: 900px) {
     .column {
@@ -98,7 +98,7 @@ nav a {
     font-family: "Anton SC", "IBM Plex Mono", sans-serif;
     font-weight: 400;
     padding: 10px;
-    text-decoration: none;
+    text-decoration: underline;
     font-size: 25px;
 }
 nav a:hover {
